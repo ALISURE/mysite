@@ -1,6 +1,6 @@
 # mysite
 
-### 从模板中选择
+### 模板中选择
 
 * 新建项目
 
@@ -15,4 +15,4 @@
 * 访问[https://alisure.github.io/mysite/](https://alisure.github.io/mysite/)
 
 
-### 
+### 专门的静态站点分支
