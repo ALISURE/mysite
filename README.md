@@ -15,4 +15,10 @@
 * 访问[https://alisure.github.io/mysite/](https://alisure.github.io/mysite/)
 
 
-### 专门的静态站点分支
+### 静态站点目录
+
+* 新建目录 `docs/`
+
+* 在settings中GitHub Pages下选择Source为`master branch /docs folder`
+
+
