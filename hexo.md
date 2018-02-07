@@ -60,6 +60,20 @@
 * [https://hexo.io/docs/commands.html](https://hexo.io/docs/commands.html)
 
 
+### Writing
+
+* [https://hexo.io/docs/writing.html](https://hexo.io/docs/writing.html)
+
+* 新建一个页面
+```
+hexo new [layout] <title>
+```
+比如：
+```
+hexo new my_page
+```
+
+
 ### Tag and Tag Plugins
 
 * [https://hexo.io/docs/tag.html](https://hexo.io/docs/tag.html)
