@@ -4,7 +4,7 @@
 
 * 新建项目
 
-* 创建Master分支或者其他分支
+* 创建`master`分支或者`gh-pages`分支
 ![select source](readme/select_source.png)
 
 * 在settings中GitHub Pages下选择Source所在分支（刚才创建的分支）
