@@ -3,9 +3,12 @@
 ### 模板中选择
 
 * 新建项目
+    * 说明： [user organization and project pages](https://help.github.com/articles/user-organization-and-project-pages/)
 
 * 创建`master`分支或者`gh-pages`分支
-![select source](readme/select_source.png)
+    * 说明： [configuring a publishing source for github pages](https://help.github.com/articles/configuring-a-publishing-source-for-github-pages/)
+
+    ![select source](readme/select_source.png)
 
 * 在settings中GitHub Pages下选择Source所在分支（刚才创建的分支）
 ![select branch and theme](readme/select_branch_and_theme.png)
