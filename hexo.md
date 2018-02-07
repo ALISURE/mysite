@@ -5,6 +5,15 @@
 * [https://hexo.io/docs](https://hexo.io/docs)
 
 
+### Demo
+
+* [https://github.com/ALISURE/hexo_demo](https://github.com/ALISURE/hexo_demo)
+    * 该项目有两个分支：`master` 和 `source`
+    * `master` 用于部署 `public` 目录中的内容，即静态站点的内容
+    * `source` 是源码，用来生成 `public` 目录中的内容
+    * `clone` 之后 `npm install` 即可
+    
+
 ### 安装
 
 * 安装Git
@@ -17,7 +26,7 @@
     ```
     
 
-### Demo
+### 初体验
 
 * 初始化
     ```
