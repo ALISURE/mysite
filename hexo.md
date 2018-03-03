@@ -195,6 +195,11 @@ ssh-keygen -t rsa -C "562282219@qq.com"
 # 3. OK
 ```
 
+* Reference
+   * [本地安装hexo步骤](https://www.cnblogs.com/imsoft/p/5228560.html)
+   * [hexo无法上传到github 试了各种办法依然无法成功，小白求助](https://segmentfault.com/q/1010000003734223)
+   * [hexo deploy #1503](https://github.com/hexojs/hexo/issues/1503)
+
 
 
 ### Permalinks
