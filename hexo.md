@@ -25,6 +25,22 @@
     npm install hexo-cli -g
     ```
     
+### 常用命令
+```
+# 新建
+hexo new file-name
+
+# 清空
+hexo clean
+
+# 生成
+hexo g
+
+# 部署
+hexo d
+```
+
+
 
 ### 初体验
 
