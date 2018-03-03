@@ -169,6 +169,33 @@ You can copy them to wherever you like.
     hexo generate --deploy  # 生成并部署
     ```
 
+* 问题：`fatal: could not read Username for 'https://github.com': Invalid argument·
+```
+# 解决办法：将https方式改成ssh方式
+
+# 1. 将deploy下的repo更改为下面之一
+repo: ssh://git@github.com/ALISURE/alisure.github.io
+repo: ssh://git@github.com/ALISURE/alisure.github.io.git
+repo: git@github.com:ALISURE/alisure.github.io
+repo: git@github.com:ALISURE/alisure.github.io.git
+
+# 2. OK
+```
+
+* 问题：`Host key verification failed. fatal: Could not read from remote repository.`
+```
+# 解决办法：更改github网站的SSH keys
+
+# 1. 电脑上 git Bash 中输入下列命名，生产keys
+ssh-keygen -t rsa -C "562282219@qq.com"
+
+# 2. 将下列文件中的内容复制到hub网站上
+/c/Users/ALISURE/.ssh/id_rsa.pub
+
+# 3. OK
+```
+
+
 
 ### Permalinks
 
