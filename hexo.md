@@ -27,6 +27,9 @@
     
 ### 常用命令
 ```
+# 帮助
+hexo help
+
 # 新建
 hexo new file-name
 
