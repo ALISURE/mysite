@@ -30,6 +30,9 @@
 # 新建
 hexo new file-name
 
+# 本地服务器
+hexo s
+
 # 清空
 hexo clean
 
