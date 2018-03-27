@@ -27,3 +27,8 @@
 * 在settings中GitHub Pages下选择Source为`master branch /docs folder`
 
 * 访问[https://alisure.github.io/mysite/](https://alisure.github.io/mysite/)
+
+
+### Hexo添加Post的一般性方法
+
+* [添加Post的一般性方法](./添加Post的一般性方法.md)

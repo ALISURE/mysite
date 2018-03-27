@@ -1,16 +1,20 @@
 @echo off
 
-:: 只需要更改两处：
+:: 只需要更改四处：
 :: 第一处：该项目所在目录
 set shell_project=C:\ALISURE\Python\Pycharm\File\other\Linux-Shell
 :: 第二处：需要上传的原始md所在目录
 set need_upload_md_path=md
+:: 第三处：hexo中存放md的目录（_post后是分类目录）
+set github_file_path=source\_posts\xxx
+:: 第四处：如果_post后无分类目录，可将下面这行注释掉
+if not exist %github_project%\%github_file_path% md %github_project%\%github_file_path%
 
 :: 临时文件夹，用于存放转换后的文件
 set need_upload_tmp=github
 
+:: 博客项目所在目录
 set github_project=C:\ALISURE\IDEA\File\github-site\hexo\alisure.github.io
-set github_file_path=source\_posts
 
 :: 转换内容
 echo begin upload-transfer.cmd
