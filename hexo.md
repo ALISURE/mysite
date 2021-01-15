@@ -18,7 +18,11 @@
 
 * 安装Git
 
-* 安装Node
+* 安装Node：[https://nodejs.org/dist/](https://nodejs.org/dist/)
+  
+  注意版本号，不要太高。建议 [https://nodejs.org/dist/v12.10.0/](https://nodejs.org/dist/v12.10.0/)
+  
+  点击下载：[https://nodejs.org/dist/v12.10.0/node-v12.10.0-x64.msi](https://nodejs.org/dist/v12.10.0/node-v12.10.0-x64.msi)
 
 * 安装hexo
     ```
